@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url("../../fonts/Avenir.ttf");
+}
+
+* {
+
+  font-family: 'Source Sans Pro', Avenir;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  position: relative;
+  background-image: url("../../img/background.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Avenir;
+}
+
+/* footer */
+
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top: 2px solid lightBlue;
+}
